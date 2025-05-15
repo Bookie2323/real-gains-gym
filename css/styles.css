@@ -1,0 +1,168 @@
+.main-nav ul {
+  display: flex;
+  justify-content: center;
+  background-color: #003366;
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+}
+.main-nav ul li {
+  margin: 0 15px;
+}
+.main-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.main-nav ul li a:hover {
+  color: #00aaff;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.top-banner {
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+.hero.blue-theme {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+.hero-content h1 {
+  font-size: 2.5em;
+}
+.hero-content .highlight {
+  color: #00aaff;
+}
+.search-area input {
+  padding: 10px;
+  border-radius: 20px 0 0 20px;
+  border: none;
+  width: 200px;
+}
+.search-area button {
+  padding: 10px 20px;
+  background: #00aaff;
+  color: white;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+.feature-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+  text-align: center; /* Ensure all children align text center */
+}
+
+.feature {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.form-section {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+form input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+}
+form button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.fun-tools {
+  text-align: center;
+  padding: 40px;
+}
+.fun-tools input {
+  margin: 5px;
+  padding: 10px;
+}
+.fun-tools button {
+  padding: 10px 20px;
+  background: #00aaff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+body {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.feature:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+
+.hero.blue-theme {
+  background: linear-gradient(-45deg, #001f3f, #003366, #004080, #0055a5);
+  background-size: 400% 400%;
+  animation: gradientBG 10s ease infinite;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+.search-area button, form button, .fun-tools button {
+  background: #00aaff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  box-shadow: 0 0 15px rgba(0,170,255,0.6);
+  transition: all 0.3s ease-in-out;
+}
+.search-area button:hover, form button:hover, .fun-tools button:hover {
+  background: #0077cc;
+  box-shadow: 0 0 20px #00aaff;
+  transform: scale(1.05);
+}
+body {
+  font-family: 'Bebas Neue', sans-serif;
+}

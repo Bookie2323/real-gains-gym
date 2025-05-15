@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Gains | Membership</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+<nav class="main-nav">
+  <ul>
+    <li><a href="index.html">About Us</a></li>
+    <li><a href="membership.html">Membership</a></li>
+    <li><a href="fun.html">Fun</a></li>
+  </ul>
+</nav>
+  <section class="hero blue-theme">
+    <div class="top-banner">Exclusive Offer: Free Trial for New Members!</div>
+    <div class="hero-content">
+      <h1>Join <span class="highlight">Real Gains</span> Today</h1>
+      <p>Fill out the form below to become a member</p>
+    </div>
+  </section>
+
+  <section class="form-section">
+    <form name="membershipForm" onsubmit="return validateForm()">
+      <input type="text" name="name" placeholder="Full Name" />
+      <input type="email" name="email" placeholder="Email" />
+      <input type="text" name="phone" placeholder="Phone Number" />
+      <input type="number" name="age" placeholder="Age" />
+      <button type="submit">Join Now</button>
+    </form>
+  </section>
+<div class="feature" data-aos="fade-up" data-aos-delay="200">...</div>
+  <script src="js/form-validation.js"></script>
+</body>
+</html>
