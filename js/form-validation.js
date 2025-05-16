@@ -45,3 +45,24 @@ counters.forEach(counter => {
   };
   update();
 });
+<script>
+  function initMap() {
+    const gymLocation = { lat: 40.7128, lng: -74.0060 }; // New York City coordinates
+
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 14,
+      center: gymLocation,
+    });
+
+    new google.maps.Marker({
+      position: gymLocation,
+      map: map,
+      title: "Real Gains Gym",
+    });
+  }
+</script>
+
+<!-- Replace YOUR_API_KEY below with your real Google Maps JavaScript API key -->
+<script async
+  src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+</script>
