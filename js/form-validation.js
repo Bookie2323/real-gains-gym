@@ -62,7 +62,4 @@ counters.forEach(counter => {
   }
 </script>
 
-<!-- Replace YOUR_API_KEY below with your real Google Maps JavaScript API key -->
-<script async
-  src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-</script>
+
