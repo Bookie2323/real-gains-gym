@@ -9,6 +9,25 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
+  <script>
+  function initMap() {
+    const gymLocation = { lat: 40.7128, lng: -74.0060 }; // NYC
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 14,
+      center: gymLocation,
+    });
+
+    new google.maps.Marker({
+      position: gymLocation,
+      map: map,
+      title: "Real Gains Gym",
+    });
+  }
+</script>
+
+<!-- Replace YOUR_API_KEY with your real Google Maps API Key -->
+<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8GXRZ4MxZTW5pUtiHm_Ih0JrVuVT9WZM&callback=initMap"></script>
+
 <body>
 <nav class="main-nav">
   <ul>
